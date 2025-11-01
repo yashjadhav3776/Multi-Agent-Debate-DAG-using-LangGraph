@@ -1,7 +1,7 @@
-# Multi-Agent-Debate-DAG-using-LangGraph
+# Multi-Agent Debate DAG
 This project simulates a multi-agent debate system between two AI personas — a Scientist and a Philosopher — on any user-defined topic. The debate is modeled as a Directed Acyclic Graph (DAG), where each node represents a distinct role in the discussion pipeline.
-The system runs entirely through a Command-Line Interface (CLI) and demonstrates how structured reasoning, logging, and graph-based workflow design can simulate agent-based debate systems.
 
+The system runs entirely through a Command-Line Interface (CLI) and demonstrates how structured reasoning, logging, and graph-based workflow design can simulate agent-based debate systems.
 ## What this program does
 - Implements a CLI debate simulation with two persona agents (Scientist vs Philosopher).
 - Exactly **8 rounds** (4 per agent), alternating.
@@ -18,8 +18,3 @@ The system runs entirely through a Command-Line Interface (CLI) and demonstrates
 ## Install (Windows PowerShell)
 ```powershell
 python -m pip install -r requirements.txt
-
-
-
-
-
